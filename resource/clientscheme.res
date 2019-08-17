@@ -18,6 +18,7 @@ Scheme
 	//////////////////////// COLORS ///////////////////////////
 	Colors
 	{
+		
 		// base colors
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"
@@ -3018,17 +3019,16 @@ Scheme
 		}
 	
 
-	     Newtown
+       Newtown
 		{
 			"1"
 			{
 				"name"		"Newtown"
-				"tall"		"12"
+				"tall"		"48"
 				"antialias" "1"
 			}
-		}
-	}
-       ////FROG'S FONT///	
+}
+	}	
 	//
 	//////////////////// BORDERS //////////////////////////////
 	//
