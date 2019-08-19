@@ -3017,9 +3017,9 @@ Scheme
 				"antialias" "1"
 			}
 		}
-	
+//Newtown
 
-       Newtown
+       "Newtown"
 		{
 			"1"
 			{
@@ -3027,8 +3027,9 @@ Scheme
 				"tall"		"48"
 				"antialias" "1"
 			}
-}
-	}	
+		}	
+
+  	}
 	//
 	//////////////////// BORDERS //////////////////////////////
 	//
@@ -5845,6 +5846,13 @@ Scheme
 		
 		"font" "resource/fonts/NEWTOW__.TTF"
 		"name" "Newtown"
+		
+		}
+		"9"
+		{
+		
+		"font" "resource/fonts/NEWTOW_B.TTF"
+		"name" "Newtown Bold"
 		
 		}
 	}

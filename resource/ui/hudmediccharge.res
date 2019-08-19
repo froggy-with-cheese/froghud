@@ -28,7 +28,7 @@
 		"tall"			"150"
 		"autoResize"	"1"
 		"pinCorner"		"2"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_UberchargeMinHUD"
@@ -37,8 +37,10 @@
 		"brighttext"	"0"
 		"font"			"Newtown"
 		"fgcolor_override"    "255 255 255 255"
-	}
 
+	}
+	
+		
 	"IndividualChargesLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -50,7 +52,7 @@
 		"tall"			"150"
 		"autoResize"	"1"
 		"pinCorner"		"2"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_IndividualUberchargesMinHUD"
@@ -60,7 +62,7 @@
 		"font"			"Newtown"
 		"fgcolor_override"       "255 255 255 255"
 	}
-	
+
 	"ChargeMeter"
 	{	
 		"ControlName"	"ContinuousProgressBar"
