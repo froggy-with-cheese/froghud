@@ -3017,9 +3017,47 @@ Scheme
 				"antialias" "1"
 			}
 		}
-//Newtown
-
-       "Newtown"
+		
+        Newtown8
+		{
+			"1"
+			{
+				"name"		"Newtown"
+				"tall"		"8"
+				"antialias" "1"
+			}
+		}
+		
+		Newtown12
+		{
+			"1"
+			{
+				"name"		"Newtown"
+				"tall"		"12"
+				"antialias" "1"
+			}
+		}
+		
+		Newtown24
+		{
+			"1"
+			{
+				"name"		"Newtown"
+				"tall"		"24"
+				"antialias" "1"
+			}
+		}
+		
+		Newtown36
+		{
+			"1"
+			{
+				"name"		"Newtown"
+				"tall"		"36"
+				"antialias" "1"
+			}
+		}
+        Newtown48
 		{
 			"1"
 			{
@@ -3027,8 +3065,17 @@ Scheme
 				"tall"		"48"
 				"antialias" "1"
 			}
-		}	
-
+		}
+			
+		VCROSDMono12
+		{
+			"1"
+			{
+				"name"		"VCR OSD Mono"
+				"tall"		"12"
+				"antialias" "1"
+			}
+        }     
   	}
 	//
 	//////////////////// BORDERS //////////////////////////////
@@ -5844,15 +5891,17 @@ Scheme
 		"8"
 		{
 		
-		"font" "resource/fonts/NEWTOW__.TTF"
+		"font" "resource/fonts/NEWTOW__.OTF"
 		"name" "Newtown"
 		
 		}
+		
+		
 		"9"
 		{
 		
-		"font" "resource/fonts/NEWTOW_B.TTF"
-		"name" "Newtown Bold"
+		"font" "resource/fonts/VCR_OSD_MONO_1.001.otf"
+		"name" "VCR OSD Mono"
 		
 		}
 	}
