@@ -9,23 +9,13 @@
 		"zpos"			"-1"
 		"wide"			"252"
 		"tall"	 		"50"
-		"autoResize"		"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_brown"
 		"scaleImage"		"1"
-		"teambg_1"		"../hud/color_panel_brown"
-		"teambg_2"		"../hud/color_panel_red"
-		"teambg_2_lodef"	"../hud/color_panel_red"
-		"teambg_3"		"../hud/color_panel_blu"
-		"teambg_3_lodef"	"../hud/color_panel_blu"
+		"image"			"../hud/color_panel_brown"
+		"bgcolor_override" "60 60 60 255"
 		
-		"src_corner_height"		"23"				// pixels inside the image
-		"src_corner_width"		"23"
-			
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		
 	}
 	"TargetIDBG_Spec_Blue"
 	{
@@ -36,18 +26,11 @@
 		"zpos"			"-1"
 		"wide"			"252"
 		"tall"	 		"30"
-		"autoResize"		"0"
-		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_blu"
-		"image_lodef"	"../hud/color_panel_blu"
+		"image"			"../hud/color_panel_brown"
+		"bgcolor_override" "60 60 60 255"
 		
-		"src_corner_height"		"23"				// pixels inside the image
-		"src_corner_width"		"23"
-			
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"
 	}
 	"TargetIDBG_Spec_Red"
 	{
@@ -58,18 +41,11 @@
 		"zpos"			"-1"
 		"wide"			"252"
 		"tall"	 		"30"
-		"autoResize"		"0"
-		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_red"
-		"image_lodef"	"../hud/color_panel_red"
+		"image"			"../hud/color_panel_brown"
+		"bgcolor_override" "60 60 60 255"
 		
-		"src_corner_height"		"23"				// pixels inside the image
-		"src_corner_width"		"23"
-			
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"
 	}
 	
 	"TargetNameLabel"
@@ -88,8 +64,6 @@
 		"enabled"		"1"
 		"labelText"		"%targetname%"
 		"textAlignment"		"North-West"
-		"dulltext"		"0"
-		"brighttext"		"1"
 		"fgcolor_override" "255 255 255 255"
 	}
 	"TargetDataLabel"
@@ -110,7 +84,7 @@
 		"textAlignment"		"Left"
 		"dulltext"		"0"
 		"brighttext"		"0"
-		"fgcolor" "255 255 255 255"
+		"fgcolor_override" "255 255 255 255"
 	}
 	"SpectatorGUIHealth"
 	{
