@@ -61,7 +61,7 @@
 		"ControlName"	"Label"
 		"fieldName"		"DisguiseNameLabel"
 		"font"			"Newtown12"
-		"xpos"			"52"
+		"xpos"			"70"
 		"ypos"			"31"
 		"zpos"			"1"
 		"wide"			"110"
@@ -74,6 +74,7 @@
 		"textAlignment"		"North-West"
 		"dulltext"		"0"
 		"brighttext"		"0"
+		"fgcolor_override"      "255 255 255 255"
 	}
 	
 	"WeaponNameLabel"
@@ -81,8 +82,7 @@
 		"ControlName"	"Label"
 		"fieldName"		"WeaponNameLabel"
 		"font"			"Newtown12"
-		"font_minmode"	"TFFontMedium"
-		"xpos"			"52"
+		"xpos"			"70"
 		"ypos"			"45"
 		"zpos"			"1"
 		"wide"			"110"
@@ -95,13 +95,14 @@
 		"textAlignment"		"North-West"
 		"dulltext"		"0"
 		"brighttext"		"0"
+		"fgcolor_override"      "255 255 255 255"
 	}
 	
 	"SpectatorGUIHealth"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
-		"xpos"			"20"
+		"xpos"			"35"
 		"ypos"			"30"
 		"wide"			"32"
 		"tall"			"32"
@@ -111,7 +112,7 @@
 		"HealthDeathWarning"	"0.49"
 		"TFFont"		"Newtown12"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
-		"TextColor"		"HudOffWhite"
+		""fgcolor_override"      "255 255 255 255"
 	}	
 	
 }

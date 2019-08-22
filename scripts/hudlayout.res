@@ -80,12 +80,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-25"
-		"ypos"			"r95"
+		"ypos"			"r75"
 		"zpos"			"2"
 		"wide"			"250"
 		"tall"			"250"
-		"MeterFG"		"White"
-		"MeterBG"		"Gray"
+		"fgcolor_override" "255 255 255 255"
 	}	
 
 	HudBowCharge
@@ -101,7 +100,6 @@
 		"ypos"			"r45"	
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"60"
-		"wide_minmode"	"50"
 		"tall"			"8"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
